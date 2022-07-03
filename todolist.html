@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="todolist.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="task-title">
+            <div class="title-done">Done</div>
+            <div class="title-content">Content</div>
+            <div class="title-pri">Prioritised</div>
+        </div>
+        <div class="task-main" id="task-main">
+            <!-- <div class="task-item form-check">
+                <input type="checkbox" class="task-complete form-check-input">
+                <label class="task-content form-check-label">Task content</label>
+                <div class="task-pri">
+                    <input type="checkbox" class="task-pri-check">
+                    <div class="bi bi-star"></div>
+                </div>
+            </div> -->
+        </div>
+        <div class="task-title done">
+            TASK DONE
+        </div>
+        <div class="task-main" id="task-done">
+            <!-- <div class="task-item form-check">
+                <input type="checkbox" class="task-complete form-check-input">
+                <label class="task-content form-check-label">Task content</label>
+                <div class="task-pri">
+                    <input type="checkbox" class="task-pri-check">
+                    <div class="bi bi-star"></div>
+                </div>
+            </div> -->
+        </div>
+        <div class="break">
+            <hr>
+        </div>
+
+        <div class="task-add">
+            <input type="text" id="taskInput" class="form-control">
+            <button class="btn btn-primary" id="add">Create</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="todolist.js"></script>
+</body>
+
+</html>
